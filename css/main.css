@@ -1,0 +1,204 @@
+@import url(https://fonts.googleapis.com/css?family=Kristi);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,300);
+html, body, h1, h2, h3, h4, h5, h6, ul {
+  padding: 0;
+  margin: 0; }
+
+html {
+  font-size: 1em; }
+
+body {
+  font-size: 100%; }
+
+ul {
+  list-style: none; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  font-size: 100%; }
+
+img, :link img, :visited img {
+  border: 0; }
+
+a, a:link, a:visited, a:hover {
+  text-decoration: none;
+  color: inherit; }
+
+.text-center {
+  text-align: center; }
+
+.text-left {
+  text-align: left; }
+
+header {
+  background: url("../images/hero_1015_ec.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  transition: background 2s ease; }
+
+.header-text-wrapper {
+  box-sizing: border-box;
+  margin: 60px 0 80px 0; }
+
+.main-heading {
+  font-family: "Kristi", cursive;
+  color: #c2204a;
+  width: 70%;
+  font-size: 80px;
+  font-weight: 400;
+  line-height: 65px;
+  padding-bottom: 30px;
+  transform: matrix(0.9882, -0.2243, 0.1544, 0.988, 0, 0); }
+
+.first-heading {
+  margin-right: 100px; }
+
+.sub-heading {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  letter-spacing: 1.1px; }
+  .sub-heading h4 {
+    color: #fff;
+    font-size: 2rem;
+    margin-bottom: 20px; }
+  .sub-heading p {
+    color: #ede8e5;
+    font-size: 12px;
+    margin-bottom: 20px; }
+
+.link {
+  border: solid 1px #fff;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: "Ubuntu", sans-serif; }
+  .link a {
+    color: #fff; }
+  .link a.no-hover {
+    color: #fff;
+    text-decoration: none; }
+
+.left-arrow-container, .right-arrow-container {
+  position: absolute;
+  top: 40%;
+  width: 10%; }
+
+.left-arrow-container {
+  left: 0; }
+
+.right-arrow-container {
+  left: 96%; }
+
+.left-arrow, .right-arrow {
+  width: 40%;
+  cursor: pointer; }
+
+.how-it-works {
+  background-color: #fff;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 40px; }
+
+.inverse {
+  background-color: #000;
+  margin: 0 auto;
+  margin-top: 20px; }
+
+.horizontal-line {
+  border-top: solid 1px #b7b7b7;
+  margin-top: 30px; }
+
+.horizontal-text {
+  margin-top: 20px;
+  color: #000;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase; }
+
+.icon-wrapper {
+  margin-bottom: 20px; }
+
+.icon {
+  width: 149px;
+  height: 123px; }
+
+.description-heading {
+  text-transform: uppercase;
+  color: #000;
+  font-size: 14px;
+  font-weight: 700;
+  transform: scaleX(1.001);
+  margin-bottom: 20px; }
+
+.description-content {
+  color: #000;
+  font-size: 14px;
+  font-weight: 300;
+  transform: scaleX(1.0004); }
+
+.merchandise {
+  background-color: #f5f2f1; }
+
+.merchandise-list {
+  padding: 65px 0 0 0;
+  overflow: hidden;
+  margin: 0; }
+
+.item {
+  margin-bottom: 30px; }
+
+.marketing-image-container {
+  overflow: hidden; }
+
+.marketing-image {
+  width: 100%;
+  height: auto; }
+
+.description-container {
+  background-color: #fff;
+  padding: 15px;
+  overflow: hidden; }
+  .description-container .description-heading {
+    display: inline-block;
+    margin-bottom: 0;
+    font-size: 14px; }
+  .description-container .buy-link {
+    display: inline-block;
+    right: 30px;
+    position: absolute;
+    padding: 7px 22px;
+    box-sizing: border-box;
+    border: solid 1px #7e7e7e;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px; }
+    .description-container .buy-link .no-hover {
+      text-decoration: none;
+      color: inherit; }
+  .description-container .description-content {
+    font-size: 14px;
+    width: 76%; }
+
+footer {
+  color: #fff;
+  position: relative;
+  z-index: 5; }
+
+.footer-content {
+  text-align: center;
+  padding: 20px;
+  background-color: #726d6d;
+  opacity: 0.8;
+  position: relative;
+  z-index: 1; }
+
+.footer-heading {
+  color: #f8a6a8; }
