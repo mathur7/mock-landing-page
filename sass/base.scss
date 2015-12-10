@@ -1,0 +1,41 @@
+//google fonts
+
+@import url(https://fonts.googleapis.com/css?family=Kristi);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,300);
+
+// Font Variables
+
+$kristi: 'Kristi', cursive;
+$ubuntu: 'Ubuntu', sans-serif;
+
+//colors
+
+$white: #fff;
+$black: #000;
+$pink: #c2204a;
+$lightGrayOrange: #ede8e5;
+$gray: #b7b7b7;
+$lightGrayRed: #f5f2f1;
+$darkGray: #7e7e7e;
+$darkGrayRed: #726d6d;
+$softRed: #f8a6a8;
+
+//mixins
+
+@mixin cover-background($img-uri) {
+    background: url($img-uri) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+//helper classes
+
+.text-center {
+	text-align: center;
+}
+
+.text-left {
+	text-align: left;
+}
